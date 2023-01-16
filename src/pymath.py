@@ -15,7 +15,7 @@ def linear_slope(m: float, x: float, b: float) -> float:
     return m * x + b
 
 
-#Interpolate a linear function.
+#Interpolate a straight line.
 def linear_interpol(m: float, x1: float, x2: float, b: float) -> float:
     return (linear_slope(m, x1, b) + linear_slope(m, x2, b)) / 2.0
 
